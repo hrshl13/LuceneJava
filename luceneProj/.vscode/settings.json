@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Admin\\Downloads\\lucene-8.9.0\\lucene-8.9.0\\core\\lucene-core-8.9.0.jar",
+        "c:\\Users\\Admin\\Downloads\\lucene-8.9.0\\lucene-8.9.0\\queryparser\\lucene-queryparser-8.9.0.jar"
+    ]
+}
