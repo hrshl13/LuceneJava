@@ -11,6 +11,7 @@ import javax.swing.JList;
 import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 // import javax.swing.UIManager;
+import javax.swing.ScrollPaneConstants;
 
 import org.apache.lucene.document.Document;
 import org.apache.lucene.search.ScoreDoc;
@@ -47,6 +48,7 @@ public class UserInterface extends JFrame implements ActionListener {
         jList = new JList<>(listModel);
 
         scrollPane = new JScrollPane(jList);
+        scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED);
         scrollPane.setBounds(50, 200, 250, 200);
 
         add(label);
